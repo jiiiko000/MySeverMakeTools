@@ -6,7 +6,7 @@ https://www.kkaneko.jp/tools/server/pubkey.html
 ---
 面倒なので以下のコマンドを一括実施するsh
 ```
-https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Setup/fullSetUp.sh
+curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Setup/fullSetUp.sh | sh
 ```
 
 ---
