@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # update_system.sh
-curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMake/main/Setup/update_system.sh | sh
+curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Setup/update_system.sh | sh
 
 # dockerSetup.sh
-curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMake/main/Setup/dockerSetup.sh | sh
+curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Setup/dockerSetup.sh | sh
 
 # docker-composeSetup.sh
-curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMake/main/Setup/docker-composeSetup.sh | sh
+curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Setup/docker-composeSetup.sh | sh
 
 # Tailscaleインストール
 # curl -fsSL https://tailscale.com/install.sh | sh
