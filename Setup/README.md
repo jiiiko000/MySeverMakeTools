@@ -6,13 +6,13 @@ https://www.kkaneko.jp/tools/server/pubkey.html
 ---
 面倒なので以下のコマンドを一括実施するsh
 ```
-https://raw.githubusercontent.com/jiiiko000/MySeverMake/main/Setup/fullSetUp.sh
+https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Setup/fullSetUp.sh
 ```
 
 ---
 ## 最新にUPDATE
 ```
-curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMake/main/Setup/update_system.sh | sh
+curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Setup/update_system.sh | sh
 ```
 ※備忘
 自作したshはRAWで読み込む  
@@ -27,12 +27,12 @@ curl https://get.docker.com | sh
 自作  
 基本こっちで良さげ
 ```
-curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMake/main/Setup/dockerSetup.sh | sh
+curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Setup/dockerSetup.sh | sh
 ```
 
 docker-compose
 ```
-curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMake/main/Setup/docker-composeSetup.sh | sh
+curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Setup/docker-composeSetup.sh | sh
 ```
 sudoなしでdockerコマンド打てるように仕込んであるが、再起動しないと反映されないのでする。
 ```
