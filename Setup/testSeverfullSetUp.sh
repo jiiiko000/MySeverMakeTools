@@ -17,6 +17,6 @@ sudo docker network create external
 curl -fsSL https://tailscale.com/install.sh | sh
 
 echo CasaOSのインストールに進んでください。
-echo 
-echo curl -fsSL https://get.casaos.io | sudo bash
-echo sudo chmod 777 /mnt
+# echo 
+# echo curl -fsSL https://get.casaos.io | sudo bash
+# echo sudo chmod 777 /mnt
