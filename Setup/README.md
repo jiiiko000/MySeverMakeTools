@@ -9,7 +9,7 @@ https://www.kkaneko.jp/tools/server/pubkey.html
 curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Setup/fullSetUp.sh | sh
 ```
 ```
-curl -fsSL  | sh
+curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Setup/testSeverfullSetUp.sh | sh
 ```
 ---
 ## 最新にUPDATE
