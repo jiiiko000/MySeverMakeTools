@@ -16,3 +16,6 @@ sudo apt install language-pack-ja language-pack-ja-base
 locale -a
 sudo update-locale LANG=ja_JP.UTF-8
 locale -a
+
+# zipコマンド
+sudo apt install zip -y
