@@ -16,6 +16,14 @@ curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Set
 ```
 curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Setup/update_system.sh | sh
 ```
+
+## Proxmox + Ubuntu Server でSSH復旧
+Proxmox上のUbuntu ServerでSSHログインできない時に、`PasswordAuthentication yes` と `PermitRootLogin yes` をまとめて反映する対話型シェル。
+```
+curl -fsSL https://raw.githubusercontent.com/jiiiko000/MySeverMakeTools/main/Setup/ssh_recovery.sh -o ssh_recovery.sh
+sudo bash ssh_recovery.sh
+```
+
 ※備忘
 自作したshはRAWで読み込む  
 改行コードはLFにする。Windowsで作成すると、改行コードが違うから注意。
